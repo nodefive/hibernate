@@ -3,6 +3,8 @@
 Puts Android apps to sleep. Hibernate force-stops the apps that are running in the background,
 so they stop using memory, battery and data until you open them again.
 
+![Main screen, settings and fast mode setup](docs/screenshots.png)
+
 - **One tap** hibernates every awake app, or tap the moon next to a single app.
 - **Memory dashboard** with used and available memory, and lists of awake, hibernated and
   failed apps (pull down to refresh).

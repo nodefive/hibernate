@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Limited to Settings (to press Force stop on an app's info page) and System UI (to press Allow
+  on the "wireless debugging on this network" prompt, only right after Hibernate asked for it).
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:canPerformGestures="false"
+    android:description="@string/service_description"
+    android:notificationTimeout="50"
+    android:packageNames="com.android.settings,com.android.systemui" />

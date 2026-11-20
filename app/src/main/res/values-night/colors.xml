@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Argonaut dark: window #0E1019, cards #151829, Nautilus view #101321, navy borders #262C4A. -->
+<resources>
+    <color name="bg">#0E1019</color>
+    <color name="surface">#151829</color>
+    <color name="text">#D8DEE9</color>
+    <color name="text_secondary">#8A94AA</color>
+    <color name="divider">#262C4A</color>
+    <color name="accent">#027AD7</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="ok">#8CE10B</color>
+    <color name="warn">#FFB900</color>
+    <color name="code_bg">#101321</color>
+    <color name="track_off">#262C4A</color>
+    <color name="thumb_off">#8A94AA</color>
+    <color name="accent_text">#4AA8F0</color>
+    <color name="accent_soft">#101321</color>
+    <color name="accent_dim">#173156</color>
+    <!-- Buttons: the Nautilus view background, outlined in Argonaut navy. -->
+    <color name="button_bg">#1D2235</color>
+    <color name="button_stroke">#2E3557</color>
+    <color name="on_button">#D8DEE9</color>
+    <color name="ring">#024A86</color>
+    <color name="mem_free">#22609C</color>
+    <!-- Tabs: one pill, lighter fill on the selected segment. -->
+    <color name="tab_bg">#1D2235</color>
+    <color name="tab_selected">#343D66</color>
+    <color name="tab_border">#2E3557</color>
+    <color name="tab_text_on">#FFFFFF</color>
+</resources>

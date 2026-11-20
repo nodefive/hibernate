@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F4F5FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="divider">#E5E7EB</color>
+    <!-- Argonaut blue. -->
+    <color name="accent">#027AD7</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="ok">#16A34A</color>
+    <color name="warn">#D97706</color>
+    <color name="code_bg">#F1F2F8</color>
+    <color name="track_off">#D1D5DB</color>
+    <color name="thumb_off">#FFFFFF</color>
+    <color name="accent_text">#027AD7</color>
+    <color name="accent_soft">#E1EEFA</color>
+    <color name="accent_dim">#8EC2EC</color>
+    <!-- Buttons: Argonaut navy (the Nautilus view background). -->
+    <color name="button_bg">#101321</color>
+    <color name="button_stroke">#101321</color>
+    <color name="on_button">#FFFFFF</color>
+    <color name="ring">#024A86</color>
+    <color name="mem_free">#22609C</color>
+    <color name="tab_bg">#FFFFFF</color>
+    <color name="tab_selected">#D6E2F3</color>
+    <color name="tab_border">#C5CFE0</color>
+    <color name="tab_text_on">#101321</color>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hibernate</string>
+    <string name="tagline">Put apps to sleep</string>
+    <string name="settings">Settings</string>
+    <string name="service_label">Hibernate</string>
+    <string name="service_description">Hibernates apps by opening their App info page and pressing Force stop, when fast mode is not available. Also presses Allow on the wireless debugging prompt right after Hibernate turned wireless debugging on. Only sees Settings and that prompt.</string>
+    <string name="tile_label">Hibernate</string>
+    <string name="tile_running">%1$d of %2$d</string>
+
+    <!-- Main screen -->
+    <string name="access_title">Accessibility is off</string>
+    <string name="access_text">Hibernate uses accessibility to press Force stop when fast mode is not available, and to answer the wireless debugging prompt after a reboot. Turn on Hibernate in Accessibility settings.</string>
+    <string name="open_access">Open Accessibility settings</string>
+    <string name="memory">Memory</string>
+    <string name="ring_caption">used</string>
+    <string name="mem_total_fmt">used of %1$s</string>
+    <string name="mem_free_fmt">%1$s available</string>
+    <string name="tab_awake">Awake</string>
+    <string name="tab_asleep">Hibernated</string>
+    <string name="tab_failed">Failed</string>
+    <string name="hint_awake">Launched since they were last stopped. Apps at the top will be hibernated; tap an app for options.</string>
+    <string name="hint_asleep">Stopped: they only wake up when you open them, or when something else starts them.</string>
+    <string name="hint_failed">These apps could not be stopped last time.</string>
+    <string name="empty_awake">Everything is asleep</string>
+    <string name="empty_asleep">No hibernated apps</string>
+    <string name="empty_failed">No failures</string>
+    <string name="retry_all">Retry all</string>
+    <string name="clear_failed">Clear list</string>
+    <plurals name="hibernate_n">
+        <item quantity="one">Hibernate %d app</item>
+        <item quantity="other">Hibernate %d apps</item>
+    </plurals>
+    <string name="hibernate_none">Nothing to hibernate</string>
+    <string name="hibernate_progress">%1$d of %2$d · tap to stop</string>
+    <string name="hibernate_starting">Starting…</string>
+    <string name="hibernate_one">Hibernate</string>
+    <string name="mode_fast">Fast mode · wireless debugging</string>
+    <string name="mode_click">Accessibility mode · %1$s</string>
+    <string name="mode_none">Set up fast mode or turn on accessibility</string>
+    <string name="fast_disabled">fast mode is off</string>
+    <string name="fast_no_permission">fast mode not set up</string>
+    <string name="fast_not_authorized">fast mode not authorized</string>
+    <string name="fast_no_wifi">fast mode needs Wi-Fi</string>
+    <string name="needs_method">Turn on Hibernate in Accessibility settings, or set up fast mode.</string>
+
+    <string name="menu_hibernate">Hibernate now</string>
+    <string name="menu_app_info">App info</string>
+    <string name="menu_add_exception">Never hibernate</string>
+    <string name="menu_remove_exception">Allow hibernating</string>
+
+    <string name="reason_exception">In your never-hibernate list</string>
+    <string name="reason_not_in_list">Not in your list</string>
+    <string name="reason_system">Protected: system</string>
+    <string name="reason_accessibility">Protected: accessibility service</string>
+    <string name="reason_notification_access">Protected: notification access</string>
+    <string name="reason_keyboard">Protected: keyboard</string>
+    <string name="reason_launcher">Protected: home screen</string>
+    <string name="reason_phone">Protected: phone app</string>
+    <string name="reason_sms">Protected: messaging app</string>
+    <string name="reason_wallpaper">Protected: live wallpaper</string>
+    <string name="reason_device_admin">Protected: device admin</string>
+    <string name="sub_system">System app</string>
+
+    <!-- Results -->
+    <string name="result_nothing">Nothing to hibernate</string>
+    <string name="result_no_method">Could not hibernate: turn on accessibility or set up fast mode</string>
+    <plurals name="result_closed">
+        <item quantity="one">%d app hibernated</item>
+        <item quantity="other">%d apps hibernated</item>
+    </plurals>
+    <plurals name="result_failed">
+        <item quantity="one">%d failed</item>
+        <item quantity="other">%d failed</item>
+    </plurals>
+    <string name="result_freed">%1$s freed</string>
+    <string name="result_fast_error">Fast mode failed (%1$s); used accessibility instead.</string>
+
+    <!-- Overlay -->
+    <string name="hibernating">Hibernating</string>
+    <string name="progress_fmt">%1$d of %2$d · %3$s</string>
+    <string name="stop">Stop</string>
+
+    <!-- Settings -->
+    <string name="section_apps">Apps to hibernate</string>
+    <string name="set_user_apps">User apps</string>
+    <string name="set_user_apps_summary">Apps you installed.</string>
+    <string name="set_system_apps">System apps</string>
+    <string name="set_system_apps_summary">Preinstalled apps with an icon in the app drawer. Background services are never touched.</string>
+    <string name="set_only_list">Only my list</string>
+    <string name="set_only_list_summary">Hibernate only the apps you pick, instead of every awake app.</string>
+    <string name="set_list">My list</string>
+    <string name="set_exceptions">Never hibernate</string>
+    <plurals name="apps_count">
+        <item quantity="zero">No apps</item>
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+    <string name="set_protected">Always kept awake: the keyboard, the home screen, phone and messaging apps, accessibility services, apps with notification access, the live wallpaper and device admins. Stopping those would break them until you open them again.</string>
+
+    <string name="section_automation">Automation</string>
+    <string name="set_screen_off">Hibernate when the screen turns off</string>
+    <string name="set_screen_off_summary">After the screen has been off for the delay below. In accessibility mode the screen turns on dimmed and dark while it works, then off again.</string>
+    <string name="set_screen_off_delay">Delay</string>
+    <string name="set_screen_off_delay_summary">Turning the screen back on before this cancels it.</string>
+    <string name="seconds_fmt">%d s</string>
+
+    <string name="section_fast">Fast mode</string>
+    <string name="set_fast">Use fast mode</string>
+    <string name="set_fast_summary">Stops apps instantly through the phone\'s own wireless debugging, with nothing on screen. Needs Wi-Fi; otherwise accessibility mode is used.</string>
+    <string name="set_setup">Set up fast mode</string>
+    <string name="set_wifi_off">Turn wireless debugging off afterwards</string>
+    <string name="set_wifi_off_summary">Only if Hibernate turned it on.</string>
+    <string name="fast_status_ready">Ready</string>
+    <string name="fast_status_wifi">Set up · waiting for Wi-Fi</string>
+    <string name="fast_status_permission">Not set up: permission missing</string>
+    <string name="fast_status_authorize">Not set up: authorization missing</string>
+    <string name="fast_status_off">Off</string>
+
+    <string name="section_click">Accessibility mode</string>
+    <string name="set_overlay">Show progress screen</string>
+    <string name="set_overlay_summary">Covers the Settings pages while Hibernate goes through them.</string>
+    <string name="set_action_delay">Pause between apps</string>
+    <string name="set_action_delay_summary">Raise it if some apps fail on a slow phone.</string>
+    <string name="ms_fmt">%d ms</string>
+
+    <string name="section_backup">Backup</string>
+    <string name="set_export">Export settings</string>
+    <string name="set_export_summary">Your lists and options, as a small JSON file.</string>
+    <string name="set_import">Import settings</string>
+    <string name="set_import_summary">Restore from an exported file.</string>
+    <string name="exported">Settings exported</string>
+    <string name="imported">Settings imported</string>
+    <string name="import_failed">Could not read that file</string>
+
+    <!-- Picker -->
+    <string name="pick_list_title">My list</string>
+    <string name="pick_list_explain">With \"Only my list\" on, only these apps are hibernated.</string>
+    <string name="pick_exceptions_title">Never hibernate</string>
+    <string name="pick_exceptions_explain">These apps are always left awake.</string>
+    <string name="search">Search apps</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Fast mode</string>
+    <string name="setup_intro">Fast mode uses the phone\'s own wireless debugging, like a computer running adb, but from inside Hibernate and only on this phone. It needs a one-time setup from a computer with adb and a USB cable.</string>
+    <string name="setup_step1">1. Allow Hibernate to switch wireless debugging</string>
+    <string name="setup_step1_text">Run on the computer:</string>
+    <string name="setup_step1_cmd">adb shell pm grant com.unl0cker.hibernate android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="setup_step2">2. Authorize Hibernate</string>
+    <string name="setup_step2_text">Run this on the computer, then tap Authorize. The phone asks \"Allow USB debugging?\": tick \"Always allow from this computer\" and tap Allow. The fingerprint shown is Hibernate\'s own key.</string>
+    <string name="setup_step2_cmd">adb tcpip 5555</string>
+    <string name="setup_authorize">Authorize</string>
+    <string name="setup_authorizing">Waiting for you to tap Allow on the phone…</string>
+    <string name="setup_already_done">Already done: Hibernate is authorized and fast mode has worked. Nothing to do here.</string>
+    <string name="setup_already_authorized">Hibernate is already authorized, so there is nothing to approve. Run \"Test fast mode\" below to check it. To authorize again anyway, run adb tcpip 5555 on the computer first.</string>
+    <string name="setup_need_tcpip">adb is not waiting on port 5555 yet. Run adb tcpip 5555 on the computer, then tap Authorize again.</string>
+    <string name="setup_authorized_tested">Authorized and tested: fast mode works. adb is back in USB mode.</string>
+    <string name="setup_was_authorized_tested">This key was already authorized, so the phone did not need to ask. Fast mode works; adb is back in USB mode.</string>
+    <string name="setup_authorized_no_wifi">Authorized, and adb is back in USB mode. Connect to Wi-Fi and run the test to confirm.</string>
+    <string name="setup_was_authorized">This key was already authorized, so the phone did not need to ask. adb is back in USB mode.</string>
+    <string name="setup_not_kept">The phone allowed Hibernate only once and did not keep its key. Run adb tcpip 5555 again, tap Authorize, and tick \"Always allow from this computer\" before tapping Allow.</string>
+    <string name="setup_step3">3. Test</string>
+    <string name="setup_step3_text">Turns wireless debugging on (Wi-Fi needed), connects and runs a harmless command. After a reboot, Android 11 and 12 ask once more whether to allow wireless debugging on the network; Hibernate answers Allow by itself while accessibility is on.</string>
+    <string name="setup_test">Test fast mode</string>
+    <string name="setup_testing">Testing…</string>
+    <string name="setup_test_ok">Working (port %1$d)</string>
+    <string name="setup_test_rejected">The phone did not keep Hibernate\'s key. Run step 2 again and tick \"Always allow from this computer\" before tapping Allow.</string>
+    <string name="setup_step4">Accessibility</string>
+    <string name="setup_step4_text">Needed to answer the wireless debugging prompt after a reboot, and as the fallback without Wi-Fi.</string>
+    <string name="setup_done">Done</string>
+    <string name="setup_missing">Not yet</string>
+    <string name="error_fmt">Failed: %1$s</string>
+    <string name="copied">Copied</string>
+
+    <string name="back">Back</string>
+    <string name="back_arrow">←</string>
+    <string name="chevron">›</string>
+    <string name="version_fmt">Version %1$s</string>
+</resources>
